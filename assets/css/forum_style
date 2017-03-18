@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+  background-color: #FEFEFE;
+  padding: 50px;
+}
+
+body {
+  background-color : #34373E;
+  width: 80%;
+  margin: auto;
+  border: solid 5px;
+  border-radius: 20px;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3681E3;
+}
+
+h2 {
+  padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #1e1e1e;
+    background-color: #e7e5e4;
+    font-family: 'Gabriela', serif;
+    font-size: 100px;
+    letter-spacing: .10em;
+    text-align: center;
+    border: solid 1px;
+  border-radius: 20px;
+}
+h3 {
+  text-align: center;
+  padding-top: 5%;
+}
+
+#partie_forum {
+    padding: 0 50px;
+}
+
+
+#posts {
+  border: solid 2px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.questions_container {
+    margin: 30px 0;
+}
+
+.question {
+    margin-bottom: 50px;
+    background-color: darkgray;
+    padding: 30px;
+}
+
+.question form {
+    margin: 10px 0;
+}
+
+.response {
+    margin-top: 15px;
+}
+.question_form{
+ 
+}
+
+input, textarea {
+    margin-top: 5px;
+    display: block;
+}
+
+textarea {
+  resize: none;
+  width: 500px;
+  height: 100px;
+  display: block;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+input[type="text"] {
+  display: block;
+  margin: 0;
+  width: 30%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+input[type="submit"]{
+-webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  margin: 0 auto;
+  border: 2px solid rgb(30,205,151);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font: normal 20px/20px "Advent Pro", Helvetica, sans-serif;
+  color: rgb(30, 205, 151);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 1px;
+  background: rgba(0,0,0,0);
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+
+}
+input[type="submit"]:hover{
+  color: rgba(255,255,255,1);
+  background: rgb(30, 205, 151);
+
+}
+input[type="submit"]:active{
+   border: 2px solid rgba(33,224,163,1);
+  background: rgba(33,224,163,1);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
